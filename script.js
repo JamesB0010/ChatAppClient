@@ -1,4 +1,4 @@
-import {io} from "socket.io-client";
+import {io} from "https://cdn.socket.io/4.4.1/socket.io.esm.min.js";
 
 let input1 = document.getElementById("input1");
 let input2 = document.getElementById("input2");
