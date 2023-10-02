@@ -1,0 +1,80 @@
+:root{
+    --chatTextHeight: 50px;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1{
+    color: white;
+    margin: 0;
+}
+
+span{
+
+    color: white;
+}
+
+p{
+    color: white;
+    height: var(--chatTextHeight);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:var(--chatTextHeight);
+}
+
+#ChatArea{
+    height: 75vh;
+    border:3px solid white;
+    width: 80vw;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#chatAreaWrapper{
+    display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+  width:100vw;
+  border: 3px solid green;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#flexDown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+#inputBar{
+    display: flex;
+    justify-content: space-between;
+    gap: 12.5vw;
+}
+
+#inputBarTitles{
+    display: flex;
+    justify-content: space-between;
+    gap: 42.5vw;
+}
+
+.inputBars{
+    width: 25vw;
+    height: 6vh;
+}
+
+input{
+    margin-top: 5vh;
+}
+
+#inputBarTitles span{
+    transform: translateY(2.5vh);
+}
